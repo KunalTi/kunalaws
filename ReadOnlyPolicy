@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListPolicies",
+                "iam:GetPolicyVersion",
+                "iam:GetAccountPasswordPolicy",
+                "iam:GetPolicy",
+                "iam:ListPoliciesGrantingServiceAccess",
+                "iam:ListEntitiesForPolicy",
+                "iam:ListUserPolicies",
+                "iam:GetContextKeysForPrincipalPolicy",
+                "iam:GetContextKeysForCustomPolicy",
+                "iam:SimulatePrincipalPolicy",
+                "iam:SimulateCustomPolicy",
+                "iam:ListPolicyVersions",
+                "iam:GetUserPolicy",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListAttachedGroupPolicies",
+                "iam:GetGroupPolicy",
+                "iam:ListPolicyTags",
+                "iam:ListRolePolicies",
+                "iam:GetRolePolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
